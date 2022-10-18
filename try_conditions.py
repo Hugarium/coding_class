@@ -1,18 +1,22 @@
-#if , else,elif
+#ask a user to enter their age, sex, marital status and then use the following rules print their place of service
 
-letter = input("enter a letter of the alphabet: ")
+### Ask user to enter age, sex ( M or F ), marital status ( Y or N ) and then using following rules print their place of service.
 
-if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u":
+##if emplo s female, then she will work only in urban areas.
+#if employee is a male and age is in between 20 to 40 then he may work in anywhere
+#if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
 
-	print("letter is a vowel")
+### And any other input of age should print "ERROR"
 
-elif letter == "y" or "h":
+##taking age of user
+age = input("enter your age: ")
 
-	print("the letter is a vowel and sometimes a consonant")
+#asking user to enter their sex
+sex = input("enter your sex: "
 
-else:
+#asking a user to enter their marital status
 
-	print("the letter you entered is a consonant")
+marital_status = input("enter your marital status: ")
 
 
 
