@@ -45,7 +45,7 @@ hislist.sort()
 
 print(hislist)
 
-####### reverse ###########
+####### reverse- this arranges the items alphabetically ###########
 
 herlist = ["gym","muscles", "chest"]
 
